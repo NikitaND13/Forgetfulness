@@ -1,0 +1,292 @@
+
+@font-face {
+  font-family: 'Marvin Visions Variable';
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/MarvinVisionsTrial-Variable.ttf");
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Marvin Visions Variable';
+  font-size: 35px;
+  color:#FFFFFF;
+  background-image: url(https://assets.codepen.io/756881/bg-fuzz);
+  -webkit-font-smoothing: antialiased;
+  background-attachment: fixed;
+}
+
+*,
+*:before,
+*:after{
+    
+   
+  box-sizing: border-box;
+}
+
+.intro{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    height: 950px;
+    padding-top: 60px;
+
+
+    
+}
+
+.intro__title{
+     margin: 0;
+     font-family: 'Marvin Visions Variable';
+     font-size: 95px;
+     color: #12B2C8
+     font-weight: 700;
+     text-transform: uppercase;
+     text-align: center;
+     animation: disappear 10s ease-in-out
+           infinite;
+ 
+}
+
+  .line1 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 30s ease-in-out
+           infinite;
+}
+   
+   .line1 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+  
+  .line2 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 40s ease-in-out
+           infinite;
+}
+
+
+.line2 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+ 
+ .line3 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 50s ease-in-out
+           infinite;
+}
+
+
+.line3 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+.line4 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 60s ease-in-out
+           infinite;
+}
+
+
+.line4 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+.line5 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 80s ease-in-out
+           infinite;
+}
+
+
+.line5 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+.line6 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 100s ease-in-out
+           infinite;
+}
+
+
+.line6 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+.line7 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 120s ease-in-out
+           infinite;
+}
+
+
+.line7 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+.line8 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 140s ease-in-out
+           infinite;
+}
+
+
+.line8 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+.line9 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 160s ease-in-out
+           infinite;
+}
+
+
+.line9 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+.line10 {
+  --weight: 10;
+  font-family: 'Marvin Visions Variable';
+  font-size: 6.5rem;
+  font-weight: 170;
+  background-size: contain;
+  line-height: 0.8;
+  margin: 0;
+  text-align: left;
+  animation: disappear 190s ease-in-out
+           infinite;
+}
+
+
+.line10 > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+
+  .text > * {
+  color: hsl(347, 7%, 29%);
+  font-variation-settings: 'wght' var(--weight);
+}
+
+.grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+  @keyframes disappear {
+      28%{
+        text-shadow: 5px 2px 5px #333333;
+        color: red;
+
+      }
+        30%{
+        text-shadow: 5px 2px 5px #333333;
+        color: transparent;
+      }
+      90%{
+        text-shadow: 20px -50px 40px rgb(0,0,0,.1);
+        color:transparent;
+
+      }
+
+      100%{
+        text-shadow: 20px -50px 40px rgb(0,0,0,.1);
+        color:transparent;
+        
+      }
+
+      80%{
+        text-shadow: 20px -50px 40px rgb(0,0,0,.1);
+        color:transparent;
+        opacity: 0;
+        
+      }
+
+ 
+ .intro__subtitle {
+     font-size: 2px;
+     color:#6c7279;
+     line-height: 1.5;
+     font-weight: 400;
+     text-align: center;
+
+
+ }
+
+
+<script src="app.js"></script>
